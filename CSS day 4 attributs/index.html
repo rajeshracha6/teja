@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      label[for^="La"] {
+        margin-left: 100px;
+      }
+      label[for$="ge"] {
+        margin-left: 145px;
+      }
+      label[for="rajesh"] {
+        margin-left: 100px;
+      }
+      form {
+        display: flex;
+        justify-content: center;
+      }
+      .rest-submit {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 70px;
+      }
+      .m {
+        display: flex;
+        justify-content: center;
+      }
+      input {
+        background-color: yellow
+      }
+
+      .Pspk {
+        background-color: rgb(34, 193, 195);
+        background: linear-gradient(
+          0deg,
+          rgba(34, 193, 195, 1) 0%,
+          rgba(253, 45, 241, 1) 100%
+        );
+        
+
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <fieldset>
+      <div class="Pspk">
+        <h1 class="m"><u>Application form</u></h1>
+        <form action="">
+          <div id="form-body">
+            <label for="name">First name:</label>
+            <input
+              type="text"
+              name="name"
+              id="fname"
+              placeholder="First name"
+            />
+            <label for="Last name">Last name:</label>
+            <input
+              type="text"
+              name="name"
+              id="lname"
+              placeholder="Last name"
+            /><br /><br />
+            <label for="date_of_birth">Date of birth:</label>
+            <input type="date" name="bname" id="date" />
+            <label for="Age">Age:</label>
+            <input
+              type="text"
+              name="Age"
+              id="aname"
+              placeholder="Age"
+            /><br /><br />
+
+            <label for="Gender">Gender:</label><br /><br />
+            <input type="radio" name="gender" id="Male" value="Male" />
+            <label for="Male">Male</label><br /><br />
+            <input type="radio" name="gender" id="Female" value="Female" />
+            <label for="Female">Female</label><br /><br />
+            <input type="radio" name="gender" id="Others" value="Others" />
+            <label for="Others">Others</label><br /><br />
+
+            <label for="Emailadress">Email Adress: </label>
+            <input
+              type="text"
+              id="Emailadress"
+              placeholder="Email Adress"
+            /><br /><br />
+
+            <label for="ramesh_1">Position avilable:</label>
+            <input
+              type="radio"
+              name="Junior devoloper"
+              id="Junior devoloper"
+              value="Junior devoloper"
+            />
+            <label for="chiru">Junior devoloper</label>
+            <input
+              type="radio"
+              id="rajesh_1"
+              value="Junior devoloper"
+              name="Junior devoloper"
+            />
+            <label for="balayya_2">Mid-Level Developer</label>
+            <input
+              type="radio"
+              id="rajesh_2"
+              name="Mid-Level Developer"
+              value="Mid-Level Developer"
+            />
+            <label for="megastar">senior Developer</label>
+            <br /><br />
+
+            <label for="raja">Programming Languages:</label>
+            <input type="checkbox" />
+            <label for="kalyan">Java</label>
+            <input type="checkbox" />
+            <label for="mahesh">JavaScript</label>
+            <input type="checkbox" />
+            <label for="pawan">Python</label><br /><br />
+            <label for="super">Possword:</label>
+            <input type="text" id="rajesh" placeholder="Possward" />
+            <label for="rajesh">Confirm Password:</label>
+            <input
+              type="text"
+              id="rajesh"
+              placeholder="Confirm Password"
+            /><br /><br />
+            <div class="rest-submit">
+              <input type="submit" />
+              <input type="reset" />
+            </div>
+          </div>
+        </form>
+      </div>
+    </fieldset>
+  </body>
+</html>
