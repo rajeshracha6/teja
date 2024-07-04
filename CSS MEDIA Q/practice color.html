@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @media screen and (min-width:320px ) and (max-width:600px){
+            .img2,.img3{
+                display:none;
+            }
+        .h1{
+            color: red;
+        } 
+        .img1{
+            border:2px solid red;
+           
+            height: 120px;
+            background-color: rgb(255, 165, 0);
+        } }
+        @media screen and (min-width:601px ) and (max-width:900px){ 
+            .img1,.img3{
+                display: none;
+            }
+        .img2{
+            border:2px solid rgb(0, 255, 0);
+          
+            height: 120px;
+            /* background-color: rgb(235, 30, 129);  */
+        } }
+
+        @media screen and (min-width:900px ) and (max-width:2000px){
+            .img1,.img2{
+                display: none;
+            }
+        .img3{
+            border:2px solid rgb(58, 11, 214);
+            padding :60px;
+            height: 120px;
+            background-color: rgb(27, 140, 201);
+        }
+        }
+    </style>
+</head>
+<body>
+    <h1 >Hello</h1>
+    <img class="img1" src="./2011-rolls-royce-ghost-review-car-and-driver-photo-316402-s-original.jpg" alt="">
+    <img class="img2" src="./R.png" alt="">
+    <img class="img3" src="./ROLLS_ROYCE_WRAITH_LIGHT_RED_ROUGE.png" alt="">
+</body>
+</html>
